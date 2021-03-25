@@ -7,7 +7,7 @@ const app = express()
 
 //routes
 app.get('/',(req,res)=>{
-    res.send('Hello Express')
+    res.send('Hello Express js')
 })
 //server creation
 app.listen(PORT,()=>{
